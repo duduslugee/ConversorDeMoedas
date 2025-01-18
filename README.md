@@ -1,7 +1,7 @@
 # Conversor de Moedas
 
 ## Descrição do Projeto
-O **Conversor de Moedas** é uma aplicação desenvolvida em Java, como parte da **formação em Java Orientado a Objetos do programa Oracle Next Education em parceria com a Alura**. Esta ferramenta permite converter valores entre diferentes moedas utilizando taxas de câmbio atualizadas em tempo real. O projeto é uma demonstração prática dos conceitos de programação orientada a objetos e boas práticas de desenvolvimento.
+O **Conversor de Moedas** é uma aplicação desenvolvida em Java, como parte da **formação em Java Orientado a Objetos do programa Oracle Next Education**. Esta ferramenta permite converter valores entre diferentes moedas utilizando taxas de câmbio atualizadas em tempo real. O projeto é uma demonstração prática dos conceitos de programação orientada a objetos e boas práticas de desenvolvimento.
 
 As moedas suportadas no sistema são:
 - **USD** - Dólar Americano
@@ -32,7 +32,7 @@ As moedas suportadas no sistema são:
 ## Pré-requisitos
 
 Antes de executar o projeto, certifique-se de que você tenha:
-1. **Java 11 ou superior** instalado.
+1. **Java 17 ou superior** instalado.
 2. **Maven** configurado para gerenciamento de dependências.
 3. Conexão com a internet para acessar a API externa de taxas de câmbio.
 
@@ -47,7 +47,7 @@ Antes de executar o projeto, certifique-se de que você tenha:
    ```
 
 2. **Configure o Maven:**
-   Certifique-se de que o arquivo `pom.xml` contenha as dependências necessárias. O projeto utiliza a biblioteca `Gson` para manipulação de JSON.
+   Tenha certeza de que o arquivo `pom.xml` contenha as dependências do GJSON. O projeto utiliza a biblioteca `Gson` para manipulação de JSON.
 
    **Exemplo de `pom.xml`:**
    ```xml
@@ -114,7 +114,7 @@ Antes de executar o projeto, certifique-se de que você tenha:
 
 ## API Utilizada
 
-A aplicação utiliza a [ExchangeRate-API](https://www.exchangerate-api.com/) para buscar as taxas de câmbio. Certifique-se de substituir a **API Key** no código, caso necessário.
+A aplicação utiliza a [ExchangeRate-API](https://www.exchangerate-api.com/) para buscar as taxas de câmbio.
 
 Exemplo de URL da API:
 ```
